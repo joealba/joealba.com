@@ -1,0 +1,19 @@
+{
+  "name": "joealba.com",
+  "version": "0.0.1",
+  "description": "Joe Alba&#39;s site",
+  "main": "index.js",
+  "authors": {
+    "name": "Joe Alba",
+    "email": "joe@joealba.com"
+  },
+  "repository": "git@github.com:joealba/joealba.com.git/joealba.com",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
