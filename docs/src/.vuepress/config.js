@@ -38,6 +38,10 @@ module.exports = {
         link: '/music/',
       },
       {
+        text: 'Resume',
+        link: '/resume/',
+      },
+      {
         text: 'Twitter',
         link: 'https://twitter.com/joealba'
       },
