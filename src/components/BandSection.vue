@@ -1,5 +1,5 @@
 <script setup>
-import joePhoto from '../assets/joe.jpg'
+import bandPhoto from '../assets/band.jpg'
 
 const members = [
   { name: 'Ken Botelho', role: 'Drums, Founder & Bandleader' },
@@ -24,7 +24,17 @@ const members = [
         SE Massachusetts
       </p>
 
-      <div class="mt-10 grid gap-12 md:grid-cols-[1.3fr_0.7fr]">
+      <figure
+        class="mt-10 overflow-hidden rounded-2xl border border-panel-border bg-panel"
+      >
+        <img
+          :src="bandPhoto"
+          alt="The Contenders performing live"
+          class="aspect-[2/1] w-full object-cover object-top sm:aspect-[21/9]"
+        />
+      </figure>
+
+      <div class="mt-12 grid gap-12 md:grid-cols-[1.3fr_0.7fr]">
         <div class="space-y-5 text-lg leading-relaxed text-cream-dim">
           <p>
             A powerhouse Classic Rock band founded by veteran drummer and
@@ -38,17 +48,6 @@ const members = [
             of experience.
           </p>
 
-          <ul class="mt-6 grid gap-3 sm:grid-cols-2">
-            <li
-              v-for="member in members"
-              :key="member.name"
-              class="rounded-2xl border border-panel-border bg-panel px-4 py-3"
-            >
-              <p class="font-medium text-cream">{{ member.name }}</p>
-              <p class="text-sm text-cream-dim">{{ member.role }}</p>
-            </li>
-          </ul>
-
           <div class="mt-8 flex flex-wrap items-center gap-4">
             <a
               href="https://contendersclassicrock.com/"
@@ -58,27 +57,19 @@ const members = [
             >
               Visit the Band Site
             </a>
-            <span class="text-sm text-cream-dim">
-              Booking:
-              <a href="tel:4014306335" class="text-copper-light">
-                401-430-6335
-              </a>
-            </span>
           </div>
         </div>
 
-        <div class="flex flex-col gap-4">
-          <figure
-            class="overflow-hidden rounded-2xl border border-panel-border bg-panel"
+        <ul class="grid gap-3 sm:grid-cols-2 md:grid-cols-1">
+          <li
+            v-for="member in members"
+            :key="member.name"
+            class="rounded-2xl border border-panel-border bg-panel px-4 py-3"
           >
-            <img
-              :src="joePhoto"
-              alt="Joe Alba performing live with The Contenders"
-              class="aspect-square w-full object-cover"
-            />
-          </figure>
-          <p class="text-center text-sm text-cream-dim">More photos coming soon</p>
-        </div>
+            <p class="font-medium text-cream">{{ member.name }}</p>
+            <p class="text-sm text-cream-dim">{{ member.role }}</p>
+          </li>
+        </ul>
       </div>
     </div>
   </section>

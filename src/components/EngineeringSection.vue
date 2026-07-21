@@ -33,10 +33,10 @@ const links = [
           <p>
             I'm a software engineering manager with a long history as a
             hands-on engineer before moving into leadership. I care about
-            building teams that ship reliable software, grow their skills,
-            and enjoy the work along the way — the same discipline and
-            practice that make a good band tight also make a good
-            engineering team effective.
+            building teams that ship high quality software, leverage the latest
+            LLM techniques throughout the software development lifecycle, 
+            continue to grow their skills,
+            and enjoy the work along the way.
           </p>
           <p>
             These days I split my time between guiding engineering teams

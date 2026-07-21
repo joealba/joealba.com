@@ -7,7 +7,6 @@ const year = new Date().getFullYear()
     <div
       class="mx-auto flex max-w-5xl flex-col items-center gap-3 px-6 text-sm text-cream-dim sm:flex-row sm:justify-between"
     >
-      <p>&copy; {{ year }} Joe Alba</p>
       <div class="flex gap-6">
         <a
           href="https://github.com/joealba"

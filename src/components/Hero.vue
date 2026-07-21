@@ -18,7 +18,7 @@ import joePhoto from '../assets/joe.jpg'
         <p
           class="mb-4 font-mono text-sm uppercase tracking-[0.3em] text-copper-light"
         >
-          Engineering &amp; Guitar
+          Hi, I'm
         </p>
         <h1
           class="font-display text-4xl font-semibold leading-tight text-cream sm:text-5xl md:text-6xl"
@@ -26,10 +26,10 @@ import joePhoto from '../assets/joe.jpg'
           Joe Alba
         </h1>
         <p class="mt-6 max-w-md text-lg leading-relaxed text-cream-dim">
-          Software engineering manager building resilient teams by day.
-          Lead guitarist for
+          Software engineering manager building resilient teams by day --
+          lead guitarist for
           <span class="text-copper-light">The Contenders</span>
-          classic rock band by night.
+          classic rock band on the weekends
         </p>
         <div class="mt-8 flex flex-wrap gap-4">
           <a
