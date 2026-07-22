@@ -25,12 +25,13 @@ import joePhoto from '../assets/joe.jpg'
         >
           Joe Alba
         </h1>
-        <p class="mt-6 max-w-md text-lg leading-relaxed text-cream-dim">
-          Software engineering manager building resilient teams by day --
-          lead guitarist for
-          <span class="text-copper-light">The Contenders</span>
-          classic rock band on the weekends
-        </p>
+        <div class="mt-6 max-w-md text-lg leading-relaxed text-cream-dim">
+          <ul class="list-disc space-y-1 pl-5">
+            <li>Software engineering manager / LLM-slinger</li>
+            <li>Musician / too-many-notes guitarist</li>
+            <li>Proud dad / happy husband / foodie-type / scally cap guy</li>
+          </ul>
+        </div>
         <div class="mt-8 flex flex-wrap gap-4">
           <a
             href="#engineering"
