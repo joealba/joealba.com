@@ -39,8 +39,8 @@ const links = [
             and enjoy the work along the way.
           </p>
           <p>
-            These days I split my time between guiding engineering teams
-            and staying close to the code, at
+            These days I split my time between mentoring / managing engineering teams
+            and delivering code at
             <a
               href="https://mojotech.com"
               target="_blank"
