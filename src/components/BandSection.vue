@@ -44,8 +44,9 @@ const members = [
             unifying.
           </p>
           <p class="text-copper-light">
-            Forged in passion, defined by resilience, and built on decades
-            of experience.
+            Genuinely fun music that's a little bit outside your normal cover band setlist
+            as played by musicians who have all been at this for more than 30 years each
+            -- and still love every minute of it!
           </p>
 
           <div class="mt-8 flex flex-wrap items-center gap-4">
